@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "eslint-config-prettier"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "lib"
+        ],
+        "extensions": [
+          ".ts"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "import/named": "off",
+    "import/no-unresolved": "off"
+  }
+}

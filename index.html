@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RailRoad Diagrams reveal.js plugin</title>
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reset.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/black.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>RailRoad</h1>
+          <h2>Reveal.js Plugin</h2>
+          <script type="application/railroad">
+            Diagram(
+              'function',
+              NonTerminal('identifier'),
+              '(', ZeroOrMore('param', ','), ')',
+              '{', ZeroOrMore(NonTerminal('statement')), '}');
+          </script>
+        </section>
+      </div>
+    </div>
+
+    <script type="module">
+      import Reveal from 'reveal.js';
+      import RailRoad from './src/plugin.ts';
+
+      Reveal.initialize({
+        history: true,
+        overview: false,
+        center: true,
+        margin: 0.15,
+        railroad: {
+          // Default values
+          bg: 'unset',
+          pathStroke: '#82e4ff',
+          rectFill: '#00a6ff',
+          rectStroke: 'white',
+          textFill: 'white',
+        },
+        plugins: [RailRoad],
+      });
+    </script>
+  </body>
+</html>
