@@ -19,8 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/edc4it/reveal.js-railroad.git"
   },
-  "main": "./dist/clipcode.umd.js",
-  "module": "./dist/clipcode.es.js",
+  "main": "./dist/railroad.umd.js",
+  "module": "./dist/railroad.es.js",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
