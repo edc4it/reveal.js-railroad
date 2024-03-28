@@ -10,7 +10,7 @@
     "syntax",
     "diagrams"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "dist"
   ],
@@ -52,8 +52,8 @@
   },
   "dependencies": {
     "deepmerge": "^4.3.1",
-    "reveal.js": "^5.0.5",
-    "railroad-diagrams": "https://github.com/tabatkins/railroad-diagrams.git#ea9a12393bbaa2c802b0449fd5bdf34b6868b83c"
+    "railroad-diagrams": "https://github.com/tabatkins/railroad-diagrams.git#ea9a12393bbaa2c802b0449fd5bdf34b6868b83c",
+    "reveal.js": "^5.0.5"
   },
   "bugs": {
     "url": "https://github.com/edc4it/reveal.js-railroad/issues"
