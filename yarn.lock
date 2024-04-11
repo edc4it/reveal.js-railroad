@@ -395,9 +395,9 @@
   integrity sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==
 
 "@types/reveal.js@^5.0.1":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@types/reveal.js/-/reveal.js-5.0.2.tgz#cf3e32b8d18932120dca842b57720631b69887e5"
-  integrity sha512-mbjLnbqPWkzrC3JnBIwP15l5oX+aGqtrftytv1809rKJ3jIzKDD+NbdFj2nSpAtAlIzFbe+B+BO9QlTbhNV9WQ==
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@types/reveal.js/-/reveal.js-5.0.3.tgz#3d53723d1a959027af4270888c84fb0f9e189acb"
+  integrity sha512-gwnK8TR38IOBIORWFrV5/z9lRX4iLke2FBqNgRhXxehaWJFkrzVY2TVzfdX/SX94eugt+OI5l++zDBBSfdzruQ==
 
 "@types/semver@^7.5.0":
   version "7.5.8"
