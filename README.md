@@ -22,7 +22,7 @@ It is a thin wrapper around the amazing [Railroad-diagram Generator](https://git
 **Important** notes:
 
 - We chose the "holder" to be `<script type="application/railroad">`
-- The containment script is **executed** using [`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). This could be an enormous security risk if you don't know the authors of your slides.
+- The contained script is **executed** using [`eval`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval). This could be an enormous security risk if you don't know the authors of your slides.
 
 ## Quickstart
 
