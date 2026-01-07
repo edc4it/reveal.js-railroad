@@ -1,5 +1,11 @@
 # Reveal.js Railroad-diagram
 
+
+
+> [!CAUTION]
+> **This project is ARCHIVED.** It is no longer maintained.
+> The active version is now available at https://codeberg.org/edc4it/reveal.js-railroad
+
 [![Version](https://img.shields.io/npm/v/@edc4it/reveal.js-railroad)](#)
 
 A [reveal.js](https://revealjs.com/) plugin that adds support for Railroad-diagrams.
